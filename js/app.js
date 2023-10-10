@@ -1,10 +1,13 @@
 // stampa img su dom html
-const images = [];
+const images = [];//utilizzare array per immagini o correto richiamarle da html?
 
+//richiamare div="gallery" da html
 const galleryDOMElement = document.querySelector('.gallery');
 console.log(galleryDOMElement);
 
 console.log(images);
+
+//ciclo for per utilizzare array
 for (let i = 0; i <images.length; i++) {
     console.log[i];
     const currentSRC = images[i];

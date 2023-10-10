@@ -8,13 +8,17 @@
 
     <style>
         .gallery {
+            min-height: 100vh;
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
         }
 
         .gallery > * {
             display: none;
+            width: 500px;
         }
 
         .gallery .active {
