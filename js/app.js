@@ -22,6 +22,6 @@ for (let i = 0; i <images.length; i++) {
     galleryDOMElement.innerHTML += htmlString;
 }
 
-const imageDOMElements = document.getElementsByClassName('.image')
+const imageDOMElements = document.getElementsByClassName('.img')
 // const imageDOMElements = document.querySelectorAll('.image');
 console.log(imageDOMElements);
